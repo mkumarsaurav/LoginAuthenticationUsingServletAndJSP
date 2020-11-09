@@ -8,9 +8,20 @@
 </head>
 <body>
 	<form action="LoginAuthentication" method="post">
-		Enter username : <input type="text" name="uname"><br>
-		Enter password : <input type="password" name="pass"><br>
-		<input type="submit" value="login">
+		<table>
+			<tr>
+				<td>Enter Username:</td>
+				<td><input type="text" name="uname"></td>
+			</tr>
+			<tr>
+				<td>Enter Password:</td>
+				<td><input type="password" name="pass"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="login"></td>
+			</tr>
+		</table>
 	</form>
 </body>
 </html>
