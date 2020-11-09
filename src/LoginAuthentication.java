@@ -37,10 +37,10 @@ public class LoginAuthentication extends HttpServlet {
 		String uname= request.getParameter("uname");
 		String pass= request.getParameter("pass");
 		if(uname.equals("Saurav") && pass.equals("password")) {
-			System.out.println("Success");
+			response.sendRedirect("success.jsp");
 		}
 		else
-			System.out.println("Failed");
+			response.sendRedirect("error.jsp");
 	}
 
 }
